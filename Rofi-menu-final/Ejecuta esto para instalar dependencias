@@ -1,0 +1,5 @@
+#!/bin/bash
+sudo pacman -S rofi --noconfirm
+yay -S tty-clock --noconfirm
+yay -S scrcpy --noconfirm
+

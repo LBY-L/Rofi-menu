@@ -1,0 +1,3 @@
+#!/bin/bash
+ls script | rofi -show -dmenu | xargs -I_ bash script/_
+
