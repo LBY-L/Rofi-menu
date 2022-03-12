@@ -2,4 +2,7 @@
 sudo pacman -S rofi --noconfirm
 yay -S tty-clock --noconfirm
 yay -S scrcpy --noconfirm
+yay -S nerd-fonts-hack
+
+echo "De favor sete como fuente principal las hack nerd fonts "
 
