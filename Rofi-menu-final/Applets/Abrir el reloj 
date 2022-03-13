@@ -1,0 +1,3 @@
+#!/bin/bash
+bspc rule -a Tilix state=tiled
+tilix -e tty-clock

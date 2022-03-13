@@ -1,0 +1,5 @@
+#!/bin/bash
+echo "Escribe la ruta exacta de de donde esta la carpeta Rofi-menu-final:"
+read input
+echo "cd $input" >> Iniciar
+echo "ls script | rofi -show -dmenu | xargs -I_ bash script/_" >> Iniciar

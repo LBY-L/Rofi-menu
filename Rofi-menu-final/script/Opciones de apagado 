@@ -1,0 +1,5 @@
+#!/bin/bash
+killall -q rofi
+ls Apagados | rofi -show -dmenu | xargs -I_ bash Apagados/_
+
+
