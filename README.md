@@ -1,5 +1,4 @@
 # Rofi-menu
-
 # Instalacion
 
 1.- Abriras la carpeta con nombre Rofi-menu y buscaras el archivo Fix-de-Iniciar le daras      
