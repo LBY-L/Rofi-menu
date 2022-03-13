@@ -1,3 +1,0 @@
-#!/bin/bash
-killall -q rofi
-ls Applets | rofi -show -dmenu | xargs -I_ bash Applets/_
