@@ -10,7 +10,7 @@ select terminal in Konsole Tilix Gnome-Terminal Terminator Alacritty
 do
 		case $terminal in		
 		
-		Konosle)
+		Konsole)
 			echo 'konsole -e tty-clock' >> Applets/'Abrir el reloj '
 			echo "Se ha seteado satisfactoriamente"
 			break
