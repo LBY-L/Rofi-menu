@@ -9,7 +9,7 @@ chmod +x Applets/'Abrir el reloj '
 chmod +x Applets/'Ejecutar scrcpy '
 chmod +x script/'Ejecutar applets '
 chmod +x script/'Opciones de apagado '
-echo "Escriba 1=Si, si tiene todos los paquetes instalados de la esta lista y 2=No, si no tiene alguno o ninguno"
+echo "Escriba 1) Si, si tiene todos los paquetes instalados de la esta lista y 2) No, si no tiene alguno o ninguno"
 PS3="tty-clock, rofi, scrcpy, hack-nerd-donts: "
 select escribir in Si No
 do
