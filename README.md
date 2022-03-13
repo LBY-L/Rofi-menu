@@ -1,5 +1,5 @@
 # Rofi-menu
-Instalacion
+# Instalacion
 
 1.- Abriras la carpeta con nombre Rofi-menu y buscaras el archivo Fix-de-Iniciar le daras      
     permisos de ejecucion de manera grafica o con el comando (chmod +x Fix-de-Iniciar) y lo 
