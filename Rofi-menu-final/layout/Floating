@@ -1,9 +1,0 @@
-#!/bin/bash
-cd 
-cd bspwm
-./matapros.sh Aplicaciones tiled.sh
-./matapros.sh Aplicaciones floating.sh
-./matapros.sh Aplicaciones.sh
-cd
-cd bspwm
-./'Aplicaciones floating.sh'
