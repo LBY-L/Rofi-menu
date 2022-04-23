@@ -1,0 +1,5 @@
+#!/bin/bash
+killall -q rofi
+ls layout | rofi -show -dmenu | xargs -I_ bash layout/_
+
+
