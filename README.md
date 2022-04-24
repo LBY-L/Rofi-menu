@@ -1,5 +1,5 @@
 # Rofi Menu
-![](https://github.com/LBY-L/Rofi-menu/blob/main/Captura%20de%20pantalla%20de%202022-04-23%2020-09-01.png)
+![](https://github.com/LBY-L/Rofi-menu/blob/main/Imagen.png)
 # Instalacion
 Ejecutaras estos comandos en tu terminal favorita:
 #
