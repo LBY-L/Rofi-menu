@@ -31,6 +31,6 @@ before doing this OK.
 
 #
 
-Y ahora ya puedes ejecutarlo con el comando anterior `./Iniciar` en fin disfruta de el menu :sunglasses:.
+Y ahora ya puedes ejecutarlo con el comando anterior `./Iniciar` disfruta de el menu :sunglasses:.
 
-And now you can run it with the previous command `./Iniciar` in end enjoy from the menu :sunglasses:.
+And now you can run it with the previous command `./Iniciar` enjoy from the menu :sunglasses:.
