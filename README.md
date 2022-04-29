@@ -7,20 +7,26 @@ You will execute these commands in your favorite terminal:
 #
 Aqui vas a entrar en el directorio donde descargaste esta herramienta,
 antes de hacer esto OK.
+
 `cd (Tu directorio)`
 
 Here you are going to enter the directory where you downloaded this tool.
 before doing this OK.
+
 `cd (Your directory)`
 
 #
 
 Despues ejecutaras estos comandos
+
 `chmod +x 'lenuguaje espanol'`
+
 `./'lenuguaje espanol'`
 
 Then you will execute these commands
+
 `chmod +x 'lenuguage english'`
+
 `./'lenuguage english'`
 
 #
