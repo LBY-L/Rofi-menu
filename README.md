@@ -1,36 +1,30 @@
 # Rofi Menu
 ![](https://github.com/LBY-L/Rofi-menu/blob/main/Imagen.png)
-# Instalacion
+# Installation 
 Ejecutaras estos comandos en tu terminal favorita:
 #
 You will execute these commands in your favorite terminal:
 #
 Aqui vas a entrar en el directorio donde descargaste esta herramienta,
 antes de hacer esto OK.
+`cd (Tu directorio)`
 
 Here you are going to enter the directory where you downloaded this tool.
 before doing this OK.
+`cd (Your directory)`
 
 #
 
-`cd Rofi-menu`
+Despues ejecutaras estos comandos
+`chmod +x 'lenuguaje espanol'`
+`./'lenuguaje espanol'`
 
-`cd Rofi-menu-final`
-
-`chmod +x Fix-de-Iniciar`
-
-`./Fix-de-Iniciar`
-
-`chmod +x Dependencias`
-
-`./Dependencias`
-
-`chmod +x Iniciar`
-
-`./Iniciar`
+Then you will execute these commands
+`chmod +x 'lenuguage english'`
+`./'lenuguage english'`
 
 #
 
-Y ahora ya puedes ejecutarlo con el comando anterior `./Iniciar` disfruta de el menu :sunglasses:.
+Y ahora ya puedes ejecutarlo con el comando `rofi-menu` disfruta de el menu :sunglasses:.
 
-And now you can run it with the previous command `./Iniciar` enjoy from the menu :sunglasses:.
+And now you can run it with the command `rofi-menu` enjoy from the menu :sunglasses:.
