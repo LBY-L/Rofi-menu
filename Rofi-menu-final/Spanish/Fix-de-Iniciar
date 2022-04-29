@@ -1,0 +1,149 @@
+#!/bin/bash
+#BOLD="\e[1m"
+#RED="\e[31m"
+#BLUE="\e[34m"
+#RESET="\e[0m"
+#BACK_GREEN="\e[102m"
+#BACK_YELLOW="\e[103m"
+#BACK_GRAY="\e[100m"
+ALG=0
+echo 'cd $HOME' >> Iniciar
+echo 'cd .Rofi-menu/Spanish' >> Iniciar
+echo 'ls script | rofi -show -dmenu -theme "/usr/share/rofi/themes/sidebar.rasi" -font "Hack Nerd Font 15" -i | xargs -I_ bash script/_' >> Iniciar
+echo -e "\e[100m\e[1m"
+clear
+echo -e "\e[100m    ┌───────────────────────────────┐"
+echo -e "\e[100m    │Seleccione su terminal favorita│"
+echo -e "\e[100m    └───────────────────────────────┘"
+echo -e "\e[100m    ┌───────────────────────────────┐"
+echo -e "\e[100m    │1) Konsole                     │"
+echo -e "\e[100m    │2) Tilix                       │"
+echo -e "\e[100m    │3) Gnome Terminal              │"
+echo -e "\e[100m    │4) Terminator                  │"
+echo -e "\e[100m    │5) Alacritty                   │"
+echo -e "\e[100m    │6) Xfce Terminal               │"
+echo -e "\e[100m    └───────────────────────────────┘"
+echo -e "\e[100m     "
+while [ $ALG == 0 ]; do
+	
+read input2
+if [ $input2 == 1 ]; then
+echo -e "\e[100m\e[1m"
+clear
+	echo -e "\e[100m    ┌───────────────────────┐"
+	echo -e "\e[100m    │Gracias por su eleccion│"
+	echo -e "\e[100m    └───────────────────────┘"
+	sleep 0.5
+	echo -e "\e[100m    ┌─────┐"
+	echo -e "\e[100m    │Adios│"
+	echo -e "\e[100m    └─────┘"
+	echo 'konsole -e tty-clock' >> Applets/'Abrir el reloj'
+	sleep 1
+	chmod +x Dependencias
+	./Dependencias
+	break
+		
+elif [ $input2 == 2 ]; then
+echo -e "\e[100m\e[1m"
+clear
+	echo -e "\e[100m    ┌───────────────────────┐"
+	echo -e "\e[100m    │Gracias por su eleccion│"
+	echo -e "\e[100m    └───────────────────────┘"
+	sleep 0.5
+	echo -e "\e[100m    ┌─────┐"
+	echo -e "\e[100m    │Adios│"
+	echo -e "\e[100m    └─────┘"
+	echo 'tilix -e tty-clock' >> Applets/'Abrir el reloj'
+	chmod +x Dependencias
+	./Dependencias
+	break
+		
+elif [ $input2 == 3 ]; then
+echo -e "\e[100m\e[1m"
+clear
+	echo -e "\e[100m    ┌───────────────────────┐"
+	echo -e "\e[100m    │Gracias por su eleccion│"
+	echo -e "\e[100m    └───────────────────────┘"
+	sleep 0.5
+	echo -e "\e[100m    ┌─────┐"
+	echo -e "\e[100m    │Adios│"
+	echo -e "\e[100m    └─────┘"
+	echo 'gnome-terminal -e tty-clock' >> Applets/'Abrir el reloj'
+	sleep 1
+	chmod +x Dependencias
+	./Dependencias
+	break
+		
+elif [ $input2 == 4 ]; then
+echo -e "\e[100m\e[1m"
+clear
+	echo -e "\e[100m    ┌───────────────────────┐"
+	echo -e "\e[100m    │Gracias por su eleccion│"
+	echo -e "\e[100m    └───────────────────────┘"
+	sleep 0.5
+	echo -e "\e[100m    ┌─────┐"
+	echo -e "\e[100m    │Adios│"
+	echo -e "\e[100m    └─────┘"
+	echo 'terminator -e tty-clock' >> Applets/'Abrir el reloj'
+	sleep 1
+	chmod +x Dependencias
+	./Dependencias
+	break
+		
+elif [ $input2 == 4 ]; then
+echo -e "\e[100m\e[1m"
+clear
+	echo -e "\e[100m    ┌───────────────────────┐"
+	echo -e "\e[100m    │Gracias por su eleccion│"
+	echo -e "\e[100m    └───────────────────────┘"
+	sleep 0.5
+	echo -e "\e[100m    ┌─────┐"
+	echo -e "\e[100m    │Adios│"
+	echo -e "\e[100m    └─────┘"
+	echo 'xfce4-terminal -e tty-clock' >> Applets/'Abrir el reloj'
+	sleep 1
+	chmod +x Dependencias
+	./Dependencias
+	break
+
+elif [ $input2 == 4 ]; then
+echo -e "\e[100m\e[1m"
+clear
+	echo -e "\e[100m    ┌───────────────────────┐"
+	echo -e "\e[100m    │Gracias por su eleccion│"
+	echo -e "\e[100m    └───────────────────────┘"
+	sleep 0.5
+	echo -e "\e[100m    ┌─────┐"
+	echo -e "\e[100m    │Adios│"
+	echo -e "\e[100m    └─────┘"
+	echo 'alacritty -e tty-clock' >> Applets/'Abrir el reloj'
+	sleep 1
+	chmod +x Dependencias
+	./Dependencias
+	break
+else 
+echo -e "\e[100m\e[1m"
+clear
+	echo -e "\e[100m    ┌───────────────────────────────────────────────────┐"
+	echo -e "\e[100m    │\e[31mElige tu terminal favorta escribiendo estos numeros\e[0m\e[100m\e[1m│"
+	echo -e "\e[100m    └───────────────────────────────────────────────────┘"
+	echo -e "\e[100m    ┌───────────────────────────────┐"
+	echo -e "\e[100m    │Seleccione su terminal favorita│"
+	echo -e "\e[100m    └───────────────────────────────┘"
+	echo -e "\e[100m    ┌───────────────────────────────┐"
+	echo -e "\e[100m    │1) Konsole                     │"
+	echo -e "\e[100m    │2) Tilix                       │"
+	echo -e "\e[100m    │3) Gnome Terminal              │"
+	echo -e "\e[100m    │4) Terminator                  │"
+	echo -e "\e[100m    │5) Alacritty                   │"
+	echo -e "\e[100m    │6) Xfce Terminal               │"
+	echo -e "\e[100m    └───────────────────────────────┘"
+	echo -e "\e[100m     "
+	fi
+	case $ALG in
+	
+esac
+done
+		
+			
+			
