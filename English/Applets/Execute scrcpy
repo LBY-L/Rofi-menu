@@ -1,0 +1,3 @@
+#!/bin/bash
+bspc rule -a Tilix state=tiled
+scrcpy -m 1600
