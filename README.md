@@ -21,13 +21,13 @@ Despues ejecutaras estos comandos
 
 `chmod +x 'lenuguaje espanol'`
 
-`./'lenuguaje espanol'`
+`./'lenguaje espanol'`
 
 Then you will execute these commands
 
-`chmod +x 'lenuguage english'`
+`chmod +x 'lenguaje english'`
 
-`./'lenuguage english'`
+`./'lenguaje english'`
 
 #
 
