@@ -19,7 +19,7 @@ before doing this OK.
 
 Despues ejecutaras estos comandos
 
-`chmod +x 'lenuguaje espanol'`
+`chmod +x 'lenguaje espanol'`
 
 `./'lenguaje espanol'`
 
