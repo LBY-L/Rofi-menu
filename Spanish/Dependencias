@@ -34,7 +34,7 @@ echo -e "\e[100m\e[1m"
 clear
 echo -e "\e[100m    ┌────────────────────────────────────────────────────────────────────────────────────────────────────────────┐"
 echo -e "\e[100m    │Escriba si, si tiene todos los paquetes instalados de la esta lista y no, si no tiene alguno o ninguno:     │"
-echo -e "\e[100m    │tty-clock, rofi, scrcpy, hack-nerd-fonts                                                                    │"
+echo -e "\e[100m    │tty-clock-git, rofi, scrcpy, hack-nerd-fonts                                                                │"
 echo -e "\e[100m    └────────────────────────────────────────────────────────────────────────────────────────────────────────────┘"
 echo -e "\e[100m     "
 while [ $ALG == 0 ]; do
@@ -53,8 +53,14 @@ elif [ $input == no ]; then
 	echo -e "\e[100m\e[1m"
 	clear
 	sudo pacman -S rofi --noconfirm
-	yay -S tty-clock --noconfirm
+	echo -e "\e[100m\e[1m"
+	clear
+	yay -S tty-clock-git --noconfirm
+	echo -e "\e[100m\e[1m"
+	clear
 	yay -S scrcpy --noconfirm
+	echo -e "\e[100m\e[1m"
+	clear
 	yay -S nerd-fonts-hack --noconfirm
 	echo -e "\e[100m\e[1m"
 	clear
@@ -77,7 +83,7 @@ else
 	echo -e "\e[100m    └──────────────────────────────────────────────────────────────────────────────┘"
 	echo -e "\e[100m    ┌────────────────────────────────────────────────────────────────────────────────────────────────────────────┐"
 	echo -e "\e[100m    │Escriba si, si tiene todos los paquetes instalados de la esta lista y no, si no tiene alguno o ninguno:     │"
-	echo -e "\e[100m    │tty-clock, rofi, scrcpy, hack-nerd-fonts                                                                    │"
+	echo -e "\e[100m    │tty-clock-git, rofi, scrcpy, hack-nerd-fonts                                                                │"
 	echo -e "\e[100m    └────────────────────────────────────────────────────────────────────────────────────────────────────────────┘"
 	echo -e "\e[100m     "
 	fi
