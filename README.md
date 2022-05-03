@@ -17,17 +17,13 @@ before doing this OK.
 
 #
 
-Despues ejecutaras estos comandos
+Despues ejecutaras estos comando
 
-`chmod +x 'lenguaje espanol'`
+`./Install -s`
 
-`./'lenguaje espanol'`
+Then you will execute these command
 
-Then you will execute these commands
-
-`chmod +x 'lenguaje english'`
-
-`./'lenguaje english'`
+`./Install -e`
 
 #
 
