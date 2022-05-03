@@ -17,11 +17,15 @@ before doing this OK.
 
 #
 
-Despues ejecutaras estos comando
+Despues ejecutaras estos comandos
+
+`chmod +x Install`
 
 `./Install -s`
 
-Then you will execute these command
+Then you will execute these commands
+
+`chmod +x Install`
 
 `./Install -e`
 
