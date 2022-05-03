@@ -7,27 +7,31 @@ You will execute these commands in your favorite terminal:
 #
 Aqui vas a entrar en el directorio donde descargaste esta herramienta,
 antes de hacer esto OK.
-
-`cd (Tu directorio)`
+```
+cd (Tu directorio)
+```
 
 Here you are going to enter the directory where you downloaded this tool.
 before doing this OK.
-
-`cd (Your directory)`
-
+```
+cd (Your directory)
+```
 #
 
 Despues ejecutaras estos comandos
-
-`chmod +x Install`
-
-`./Install -s`
-
+```
+chmod +x Install
+```
+```
+./Install -s
+```
 Then you will execute these commands
-
-`chmod +x Install`
-
-`./Install -e`
+```
+chmod +x Install
+```
+```
+./Install -e`
+```
 
 #
 
