@@ -1,0 +1,10 @@
+#!/bin/bash
+directorio=$(pwd)
+
+	mkdir $HOME/.Rofi-menu
+	cd $HOME
+	cd .Rofi-menu
+	cp -r $directorio/Spanish .
+	cd Spanish
+	chmod +x Fix-de-Iniciar
+	./Fix-de-Iniciar

@@ -1,0 +1,38 @@
+#!/bin/bash
+cd $HOME
+cd .Rofi-menu/Spanish
+function help {
+        echo -e "    \e[100m\e[1m\e[31m┌───────[HELP]─────────────┐\e[0m"
+        echo -e "    \e[100m\e[1m\e[31m│-h --help   esta venana   │\e[0m"
+        echo -e "    \e[100m\e[1m\e[31m│-n   tema normal          │\e[0m"
+        echo -e "    \e[100m\e[1m\e[31m│-f   tema fancy           │\e[0m"
+        echo -e "    \e[100m\e[1m\e[31m│-d   tema dmenu           │\e[0m"
+        echo -e "    \e[100m\e[1m\e[31m│-re  actualizar rofi-menu │\e[0m"
+        echo -e "    \e[100m\e[1m\e[31m│-u   desistalar rofi-menu │\e[0m"
+        echo -e "    \e[100m\e[1m\e[31m└──────────────────────────┘\e[0m"
+}
+prompt=$1
+        if [[ $1 == --help ]]; then
+        help
+        elif [[ $1 == -h ]]; then
+        help
+        elif [[ $1 == -n ]]; then
+        ./Iniciar
+        elif [[ $1 == -f ]]; then
+        cd fancy
+        ./Iniciar
+        elif [[ $1 == -d ]]; then
+        cd dmenu
+        ./Iniciar
+        elif [[ $1 == -re ]]; then
+        chmod +x New
+        ./New -s
+        elif [[ $1 == -u ]]; then
+        chmod +x Des
+        ./Des
+        elif [[ -z $1 ]]; then
+        help
+        else
+        help
+        fi
+
