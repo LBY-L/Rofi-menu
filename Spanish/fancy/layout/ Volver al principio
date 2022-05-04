@@ -1,3 +1,0 @@
-#!/bin/bash
-killall -q rofi
-ls script | rofi -show -dmenu -theme "/usr/share/rofi/themes/fancy.rasi" -font "Hack Nerd Font 15" -i | xargs -I_ bash script/_
