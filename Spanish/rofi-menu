@@ -7,7 +7,6 @@ function help {
         echo -e "    \e[100m\e[1m\e[31m│-n   tema normal          │\e[0m"
         echo -e "    \e[100m\e[1m\e[31m│-f   tema fancy           │\e[0m"
         echo -e "    \e[100m\e[1m\e[31m│-d   tema dmenu           │\e[0m"
-        echo -e "    \e[100m\e[1m\e[31m│-re  actualizar rofi-menu │\e[0m"
         echo -e "    \e[100m\e[1m\e[31m│-u   desistalar rofi-menu │\e[0m"
         echo -e "    \e[100m\e[1m\e[31m└──────────────────────────┘\e[0m"
 }
@@ -24,9 +23,6 @@ prompt=$1
         elif [[ $1 == -d ]]; then
         cd dmenu
         ./Iniciar
-        elif [[ $1 == -re ]]; then
-        chmod +x New
-        ./New -s
         elif [[ $1 == -u ]]; then
         chmod +x Des
         ./Des
