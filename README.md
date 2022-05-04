@@ -23,6 +23,8 @@ chmod +x Install
 ```
 Y ejecutaras este comandos dependiendo de el idioma que quieras
 
+# PD: No instales rofi menu en la carpeta HOME!
+
 Español: 
 ```
 ./Install --spanish
@@ -38,6 +40,8 @@ chmod +x Install
 ```
 And you will execute these commands depending on the language you want to use
 
+# PS: Don't install rofi menu in HOME folder!
+
 Spanish:
 ```
 ./Install --spanish
@@ -52,3 +56,33 @@ English:
 Y ahora ya puedes ejecutarlo con el comando `rofi-menu` disfruta de el menu :sunglasses:.
 
 And now you can run it with the command `rofi-menu` enjoy from the menu :sunglasses:.
+
+# Themes
+
+Solo escribe esto
+
+`
+rofi-menu --help
+    ┌───────[HELP]─────────────┐
+    │-h --help   esta ventana  │
+    │-n   tema normal          │
+    │-f   tema fancy           │
+    │-d   tema dmenu           │
+    │-re   actualizar rofi-menu│
+    │-u   desinstalar rof-menu │
+    └──────────────────────────┘
+`
+
+Only write this
+
+`
+rofi-menu --help
+    ┌───────[HELP]────────────┐
+    │-h --help   this window  │
+    │-n   normal theme        │
+    │-f   fancy theme         │
+    │-d   dmenu theme         │
+    │-re   upadate rofi-menu  │
+    │-u   uninstall rofi-menu │
+    └─────────────────────────┘
+`
