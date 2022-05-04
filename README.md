@@ -10,7 +10,6 @@ antes de hacer esto OK.
 ```
 cd (Tu directorio)
 ```
-
 Here you are going to enter the directory where you downloaded this tool.
 before doing this OK.
 ```
@@ -18,19 +17,34 @@ cd (Your directory)
 ```
 #
 
-Despues ejecutaras estos comandos
+Despues ejecutaras este comando
 ```
 chmod +x Install
 ```
+Y ejecutaras este comandos dependiendo de el idioma que quieras
+
+Español: 
 ```
-./Install -s
+./Install --spanish
 ```
-Then you will execute these commands
+Ingles:
+```
+./Install --english
+```
+
+Then you will execute this command
 ```
 chmod +x Install
 ```
+And you will execute these commands depending on the language you want to use
+
+Spanish:
 ```
-./Install -e`
+./Install --spanish
+```
+English:
+```
+./Install --english
 ```
 
 #
