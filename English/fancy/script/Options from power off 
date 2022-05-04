@@ -1,5 +1,5 @@
 #!/bin/bash
 killall -q rofi
-ls Apagados | rofi -show -dmenu -theme "/usr/share/rofi/themes/arthur.rasi" -font "Hack Nerd Font 15" -i | xargs -I_ bash Apagados/_
+ls Apagados | rofi -show -dmenu -theme "/usr/share/rofi/themes/fancy.rasi" -font "Hack Nerd Font 15" -i | xargs -I_ bash Apagados/_
 
 
