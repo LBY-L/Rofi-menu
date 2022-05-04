@@ -1,0 +1,6 @@
+#!/bin/bash
+cd $HOME
+rm -r .Rofi-menu
+cd /
+cd usr/bin
+rm -r rofi-menu
