@@ -23,8 +23,6 @@ chmod +x Install
 ```
 Y ejecutaras este comandos dependiendo de el idioma que quieras
 
-# PD: No instales rofi menu en la carpeta HOME!
-
 Español: 
 ```
 ./Install --spanish
@@ -39,8 +37,6 @@ Then you will execute this command
 chmod +x Install
 ```
 And you will execute these commands depending on the language you want to use
-
-# PS: Don't install rofi menu in HOME folder!
 
 Spanish:
 ```
