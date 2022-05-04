@@ -61,7 +61,7 @@ And now you can run it with the command `rofi-menu` enjoy from the menu :sunglas
 
 Solo escribe esto
 
-`
+```
 rofi-menu --help
     ┌───────[HELP]─────────────┐
     │-h --help   esta ventana  │
@@ -69,13 +69,13 @@ rofi-menu --help
     │-f   tema fancy           │
     │-d   tema dmenu           │
     │-re   actualizar rofi-menu│
-    │-u   desinstalar rof-menu │
+    │-u   desinstalar rofi-menu│
     └──────────────────────────┘
-`
+```
 
 Only write this
 
-`
+```
 rofi-menu --help
     ┌───────[HELP]────────────┐
     │-h --help   this window  │
@@ -85,4 +85,4 @@ rofi-menu --help
     │-re   upadate rofi-menu  │
     │-u   uninstall rofi-menu │
     └─────────────────────────┘
-`
+```
