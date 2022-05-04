@@ -1,5 +1,5 @@
 #!/bin/bash
 killall -q rofi
-ls layout | rofi -show -dmenu -theme "/usr/share/rofi/themes/arthur.rasi" -font "Hack Nerd Font 15" -i | xargs -I_ bash layout/_
+ls layout | rofi -show -dmenu -theme "/usr/share/rofi/themes/dmenu.rasi" -font "Hack Nerd Font 15" -i | xargs -I_ bash layout/_
 
 
