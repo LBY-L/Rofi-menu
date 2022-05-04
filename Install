@@ -14,10 +14,14 @@ function help {
         echo -e "    \e[100m\e[1m\e[31m└──────────────────────────────────────────────┘\e[0m"
 }
 function us {
+sudo rm -r $HOME/.Rofi-menu
+sudo rm -r $HOME/Rofi-menu
 chmod +x 'lenguaje english'
 ./'lenguaje english'
 }
 function es {
+sudo rm -r $HOME/.Rofi-menu
+sudo rm -r $HOME/Rofi-menu
 chmod +x 'lenguaje espanol'
 ./'lenguaje espanol'
 }
