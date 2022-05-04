@@ -1,0 +1,21 @@
+#!/bin/bash
+function es {
+cd $HOME
+git clone https://github.com/LBY-L/Rofi-menu
+cd Rofi-menu
+chmod +x Install 
+./Install -s
+}
+function us {
+cd $HOME
+git clone https://github.com/LBY-L/Rofi-menu
+cd Rofi-menu
+chmod +x Install
+./Install -e
+}
+prompt=$1
+	if [[ $1 == -s ]]; then
+	es
+	elif [[ $1 == -e ]]; then
+	us
+	fi
