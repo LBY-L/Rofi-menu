@@ -59,12 +59,13 @@ Solo escribe esto
 
 ```
 rofi-menu --help
-    ┌───────[HELP]─────────────┐
-    │-h --help   esta ventana  │
+    ┌──────────[HELP]──────────┐
+    │-h --help   esta venana   │
     │-n   tema normal          │
     │-f   tema fancy           │
     │-d   tema dmenu           │
-    │-u   desinstalar rofi-menu│
+    │-u   desistalar rofi-menu │
+    │-up   actualizar rofi-menu│
     └──────────────────────────┘
 ```
 
@@ -72,11 +73,12 @@ Only write this
 
 ```
 rofi-menu --help
-    ┌───────[HELP]────────────┐
+    ┌──────────[HELP]─────────┐
     │-h --help   this window  │
     │-n   normal theme        │
     │-f   fancy theme         │
     │-d   dmenu theme         │
     │-u   uninstall rofi-menu │
+    │-up   update rofi-menu   │
     └─────────────────────────┘
 ```
