@@ -2,7 +2,7 @@
 cd $HOME
 cd .Rofi-menu/English
 function help {
-        echo -e "    \e[100m\e[1m\e[31m┌───────[HELP]────────────┐\e[0m"
+        echo -e "    \e[100m\e[1m\e[31m┌──────────[HELP]─────────┐\e[0m"
         echo -e "    \e[100m\e[1m\e[31m│-h --help   this window  │\e[0m"
         echo -e "    \e[100m\e[1m\e[31m│-n   normal theme        │\e[0m"
         echo -e "    \e[100m\e[1m\e[31m│-f   fancy theme         │\e[0m"
