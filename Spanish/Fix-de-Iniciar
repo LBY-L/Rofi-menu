@@ -31,9 +31,9 @@ clear
 	echo -e "\e[100m    │Gracias por su eleccion│"
 	echo -e "\e[100m    └───────────────────────┘"
 	sleep 0.5
-	echo 'konsole -e tty-clock' >> Applets/'Abrir el reloj'
-	echo 'konsole -e tty-clock' >> dmenu/Applets/'Abrir el reloj'
-	echo 'konsole -e tty-clock' >> fancy/Applets/'Abrir el reloj'
+	echo 'konsole -e tty-clock &' >> Applets/'Abrir el reloj'
+	echo 'konsole -e tty-clock &' >> dmenu/Applets/'Abrir el reloj'
+	echo 'konsole -e tty-clock &' >> fancy/Applets/'Abrir el reloj'
 	sleep 1
 	chmod +x Dependencias
 	./Dependencias
@@ -46,9 +46,9 @@ clear
 	echo -e "\e[100m    │Gracias por su eleccion│"
 	echo -e "\e[100m    └───────────────────────┘"
 	sleep 0.5
-	echo 'tilix -e tty-clock' >> Applets/'Abrir el reloj'
-	echo 'tilix -e tty-clock' >> dmenu/Applets/'Abrir el reloj'
-	echo 'tilix -e tty-clock' >> fancy/Applets/'Abrir el reloj'
+	echo 'tilix -e tty-clock &' >> Applets/'Abrir el reloj'
+	echo 'tilix -e tty-clock &' >> dmenu/Applets/'Abrir el reloj'
+	echo 'tilix -e tty-clock &' >> fancy/Applets/'Abrir el reloj'
 	chmod +x Dependencias
 	./Dependencias
 	break
@@ -60,9 +60,9 @@ clear
 	echo -e "\e[100m    │Gracias por su eleccion│"
 	echo -e "\e[100m    └───────────────────────┘"
 	sleep 0.5
-	echo 'gnome-terminal -e tty-clock' >> Applets/'Abrir el reloj'
-	echo 'gnome-terminal -e tty-clock' >> dmenu/Applets/'Abrir el reloj'
-	echo 'gnome-terminal -e tty-clock' >> fancy/Applets/'Abrir el reloj'
+	echo 'gnome-terminal -e tty-clock &' >> Applets/'Abrir el reloj'
+	echo 'gnome-terminal -e tty-clock &' >> dmenu/Applets/'Abrir el reloj'
+	echo 'gnome-terminal -e tty-clock &' >> fancy/Applets/'Abrir el reloj'
 	sleep 1
 	chmod +x Dependencias
 	./Dependencias
@@ -75,9 +75,9 @@ clear
 	echo -e "\e[100m    │Gracias por su eleccion│"
 	echo -e "\e[100m    └───────────────────────┘"
 	sleep 0.5
-	echo 'terminator -e tty-clock' >> Applets/'Abrir el reloj'
-	echo 'terminator -e tty-clock' >> dmenu/Applets/'Abrir el reloj'
-	echo 'terminator -e tty-clock' >> fancy/Applets/'Abrir el reloj'
+	echo 'terminator -e tty-clock &' >> Applets/'Abrir el reloj'
+	echo 'terminator -e tty-clock &' >> dmenu/Applets/'Abrir el reloj'
+	echo 'terminator -e tty-clock &' >> fancy/Applets/'Abrir el reloj'
 	sleep 1
 	chmod +x Dependencias
 	./Dependencias
@@ -90,9 +90,9 @@ clear
 	echo -e "\e[100m    │Gracias por su eleccion│"
 	echo -e "\e[100m    └───────────────────────┘"
 	sleep 0.5
-	echo 'xfce4-terminal -e tty-clock' >> Applets/'Abrir el reloj'
-	echo 'xfce4-terminal -e tty-clock' >> dmenu/Applets/'Abrir el reloj'
-	echo 'xfce4-terminal -e tty-clock' >> fancy/Applets/'Abrir el reloj'
+	echo 'xfce4-terminal -e tty-clock &' >> Applets/'Abrir el reloj'
+	echo 'xfce4-terminal -e tty-clock &' >> dmenu/Applets/'Abrir el reloj'
+	echo 'xfce4-terminal -e tty-clock &' >> fancy/Applets/'Abrir el reloj'
 	sleep 1
 	chmod +x Dependencias
 	./Dependencias
@@ -105,9 +105,9 @@ clear
 	echo -e "\e[100m    │Gracias por su eleccion│"
 	echo -e "\e[100m    └───────────────────────┘"
 	sleep 0.5
-	echo 'alacritty -e tty-clock' >> Applets/'Abrir el reloj'
-	echo 'alacritty -e tty-clock' >> dmenu/Applets/'Abrir el reloj'
-	echo 'alacritty -e tty-clock' >> fancy/Applets/'Abrir el reloj'
+	echo 'alacritty -e tty-clock &' >> Applets/'Abrir el reloj'
+	echo 'alacritty -e tty-clock &' >> dmenu/Applets/'Abrir el reloj'
+	echo 'alacritty -e tty-clock &' >> fancy/Applets/'Abrir el reloj'
 	sleep 1
 	chmod +x Dependencias
 	./Dependencias
