@@ -2,14 +2,14 @@
 cd $HOME
 cd .Rofi-menu/English
 function help {
-        echo -e "    \e[100m\e[1m\e[31m┌──────────[HELP]─────────┐\e[0m"
-        echo -e "    \e[100m\e[1m\e[31m│-h --help   this window  │\e[0m"
-        echo -e "    \e[100m\e[1m\e[31m│-n   normal theme        │\e[0m"
-        echo -e "    \e[100m\e[1m\e[31m│-f   fancy theme         │\e[0m"
-        echo -e "    \e[100m\e[1m\e[31m│-d   dmenu theme         │\e[0m"
-        echo -e "    \e[100m\e[1m\e[31m│-u   uninstall rofi-menu │\e[0m"
-        echo -e "    \e[100m\e[1m\e[31m│-up   update rofi-menu   │\e[0m"
-        echo -e "    \e[100m\e[1m\e[31m└──────────[V1.0]─────────┘\e[0m"
+        echo -e "    \e[100m\e[1m\e[31m┌──────────[HELP]──────────┐\e[0m"
+        echo -e "    \e[100m\e[1m\e[31m│-h --help   this window   │\e[0m"
+        echo -e "    \e[100m\e[1m\e[31m│-n   normal theme         │\e[0m"
+        echo -e "    \e[100m\e[1m\e[31m│-f   fancy theme          │\e[0m"
+        echo -e "    \e[100m\e[1m\e[31m│-d   dmenu theme          │\e[0m"
+        echo -e "    \e[100m\e[1m\e[31m│-u   uninstall rofi-menu  │\e[0m"
+        echo -e "    \e[100m\e[1m\e[31m│-up   update rofi-menu    │\e[0m"
+        echo -e "    \e[100m\e[1m\e[31m└──────────[V1.0]──────────┘\e[0m"
 }
 prompt=$1
         if [[ $1 == --help ]]; then
