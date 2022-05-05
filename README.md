@@ -1,4 +1,4 @@
-# Rofi Menu aa
+# Rofi Menu
 ![](https://github.com/LBY-L/Rofi-menu/blob/main/Imagen.png)
 # Installation 
 Ejecutaras estos comandos en tu terminal favorita:
