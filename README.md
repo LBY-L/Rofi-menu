@@ -65,7 +65,7 @@ rofi-menu --help
     │-n   tema normal          │
     │-f   tema fancy           │
     │-d   tema dmenu           │
-    │-u   desistalar rofi-menu │
+    │-u   desinstalar rofi-menu│
     │-up   actualizar rofi-menu│
     └──────────[V1.0]──────────┘
 ```
