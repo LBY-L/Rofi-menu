@@ -6,7 +6,7 @@ function help {
         echo -e "    \e[100m\e[1m\e[31m│-h --help   esta venana   │\e[0m"
         echo -e "    \e[100m\e[1m\e[31m│-n   tema normal          │\e[0m"
         echo -e "    \e[100m\e[1m\e[31m│-f   tema fancy           │\e[0m"
-        echo -e "    \e[100m\e[1m\e[31m│-d   tema dmenu           │\e[0m"
+        echo -e "    \e[100m\e[1m\e[31m│-d   tema dmenu ac        │\e[0m"
         echo -e "    \e[100m\e[1m\e[31m│-u   desistalar rofi-menu │\e[0m"
         echo -e "    \e[100m\e[1m\e[31m│-up   actualizar rofi-menu│\e[0m"
         echo -e "    \e[100m\e[1m\e[31m└──────────────────────────┘\e[0m"
