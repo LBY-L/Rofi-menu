@@ -1,5 +1,5 @@
 # Rofi Menu
-Tool crate by rofi for archlinux
+# `Tool crate by rofi for archlinux`
 ![](https://github.com/LBY-L/Rofi-menu/blob/main/Imagen.png)
 # Installation 
 Ejecutaras estos comandos en tu terminal favorita:
