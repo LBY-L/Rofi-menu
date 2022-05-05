@@ -28,8 +28,8 @@ prompt=$1
         chmod +x Des
         ./Des
         elif [[ $1 == -up ]]; then
-        sudo pacman -Syu
-        yay -Syu
+        sudo pacman -Syu --noconfirm
+        yay -Syu --noconfirm
         sudo rm -r $HOME/upt-rofi; git clone https://github.com/LBY-L/Rofi-menu $HOME/upt-rofi; cd $HOME/upt-rofi; chmod +x Install; ./Install -e
         elif [[ -z $1 ]]; then
         help
