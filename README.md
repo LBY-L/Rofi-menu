@@ -67,7 +67,7 @@ rofi-menu --help
     │-d   tema dmenu           │
     │-u   desistalar rofi-menu │
     │-up   actualizar rofi-menu│
-    └──────────────────────────┘
+    └──────────[V1.0]──────────┘
 ```
 
 Only write this
@@ -81,5 +81,5 @@ rofi-menu --help
     │-d   dmenu theme         │
     │-u   uninstall rofi-menu │
     │-up   update rofi-menu   │
-    └─────────────────────────┘
+    └──────────[V1.0]─────────┘
 ```
