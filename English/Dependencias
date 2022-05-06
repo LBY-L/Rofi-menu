@@ -30,7 +30,7 @@ ALG=0
 echo -e "\e[100m\e[1m"
 clear
 echo -e "\e[100m    ┌────────────────────────────────────────────────────────────────────────────────────────────────────────────┐"
-echo -e "\e[100m    │Type yes, if you have all the packages installed from this list and no, if you have none or none at all:    │"
+echo -e "\e[100m    │Type yes, if you have all the packages installed from this list and no, if you don't have any or none:      │"
 echo -e "\e[100m    │tty-clock-git, rofi, scrcpy, hack-nerd-fonts                                                                │"
 echo -e "\e[100m    └────────────────────────────────────────────────────────────────────────────────────────────────────────────┘"
 echo -e "\e[100m     "
@@ -79,7 +79,7 @@ else
 	echo -e "\e[100m    │\e[31mYou must write if you have all the packages and not if you do not have one or none\e[0m\e[100m\e[1m│"
 	echo -e "\e[100m    └──────────────────────────────────────────────────────────────────────────────────┘"   
 	echo -e "\e[100m    ┌────────────────────────────────────────────────────────────────────────────────────────────────────────────┐"
-	echo -e "\e[100m    │Type yes, if you have all the packages installed from this list and no, if you have none or none at all:    │"
+	echo -e "\e[100m    │Type yes, if you have all the packages installed from this list and no, if you don't have any or none:      │"
 	echo -e "\e[100m    │tty-clock-git, rofi, scrcpy, hack-nerd-fonts                                                                │"
 	echo -e "\e[100m    └────────────────────────────────────────────────────────────────────────────────────────────────────────────┘"
 	echo -e "\e[100m     "
