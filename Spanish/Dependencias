@@ -48,7 +48,7 @@ if [ $input == si ]; then
 elif [ $input == no ]; then
 	echo -e "\e[100m\e[1m"
 	clear
-	sudo pacman -S yay
+	sudo pacman -S yay --nconfirm
 	echo -e "\e[100m\e[1m"
 	clear
 	sudo pacman -S rofi --noconfirm
