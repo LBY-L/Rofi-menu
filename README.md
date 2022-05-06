@@ -61,7 +61,7 @@ Solo escribe esto
 ```
 rofi-menu --help
     ┌──────────[HELP]──────────┐
-    │-h --help   esta venana   │
+    │-h --help   esta ventana  │
     │-n   tema normal          │
     │-f   tema fancy           │
     │-d   tema dmenu           │
