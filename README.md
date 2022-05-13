@@ -1,6 +1,5 @@
 # Rofi Menu
-# `Tool create with rofi for archlinux`
-![](https://github.com/LBY-L/Rofi-menu/blob/main/Imagen.png)
+![# `Tool create with rofi for archlinux`](https://github.com/LBY-L/Rofi-menu/blob/Rofi-menu/Imagen.png)
 # Installation 
 Ejecutaras estos comandos en tu terminal favorita:
 #
