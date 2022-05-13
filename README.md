@@ -1,5 +1,5 @@
 # Rofi Menu
-![](https://github.com/LBY-L/Rofi-menu/blob/main/Imagen.png)
+![](https://github.com/LBY-L/Rofi-menu/blob/LBY-L-versi%C3%B3n-antigua/Imagen.png)
 # Instalacion
 Ejecutaras estos comandos en tu terminal favorita:
 #
