@@ -9,7 +9,7 @@ function help {
         echo -e "    \e[1m\e[1;46m\e[31m│\e[35m-d\e[0m\e[1;46m\e[1m\e[31m   tema dmenu           │\e[100m \e[0m"
         echo -e "    \e[1m\e[1;46m\e[31m│\e[35m-u\e[0m\e[1;46m\e[1m\e[31m   desinstalar rofi-menu│\e[100m \e[0m"
         echo -e "    \e[1m\e[1;46m\e[31m│\e[35m-up\e[0m\e[1;46m\e[1m\e[31m   actualizar rofi-menu│\e[100m \e[0m"
-        echo -e "    \e[1m\e[1;46m\e[31m└──────────[V1.1]──────────┘\e[100m \e[0m"
+        echo -e "    \e[1m\e[1;46m\e[31m└──────────[V1.2]──────────┘\e[100m \e[0m"
         echo -e "     \e[100m                            \e[0m"
 }
 prompt=$1
