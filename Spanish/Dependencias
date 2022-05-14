@@ -49,11 +49,7 @@ elif [ $input == no ]; then
 	echo -e "\e[1;30m\e[100m    \e[1;46m┌───────────────────────────────────────────┐\e[0m"
 	echo -e "\e[1;30m\e[100m    \e[1;46m│Se han instalado los paquetes correctamente│\e[0m"
 	echo -e "\e[1;30m\e[100m    \e[1;46m└───────────────────────────────────────────┘\e[0m"
-	sleep 0.5
-	echo -e "\e[1;30m\e[100m    \e[1;46m┌─────┐\e[0m"
-	echo -e "\e[1;30m\e[100m    \e[1;46m│Adios│\e[0m"
-	echo -e "\e[1;30m\e[100m    \e[1;46m└─────┘\e[0m"
-	sleep 2
+	sleep 1
 	clear
 	break
 	
