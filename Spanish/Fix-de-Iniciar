@@ -10,9 +10,9 @@ ALG=0
 while [ $ALG == 0 ]; do
 echo -e "\e[100m\e[1m"
 clear
-echo -e "\e[100m     ┌────────────────────────────┐"
-echo -e "\e[100m     │Rofi Menu Instalation Wizard│"
-echo -e "\e[100m    ┌┴────────────────────────────┴─┐"
+echo -e "\e[100m     ┌─────────────────────────────┐"
+echo -e "\e[100m     │Rofi Menu Installation Wizard│"
+echo -e "\e[100m    ┌┴─────────────────────────────┴┐"
 echo -e "\e[100m    │Seleccione su terminal favorita│"
 echo -e "\e[100m    └───────────────────────────────┘"
 echo -e "\e[100m    ┌───────────────────────────────┐"
