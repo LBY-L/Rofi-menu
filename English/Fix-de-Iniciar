@@ -7,31 +7,31 @@
 #BACK_YELLOW="\e[103m"
 #BACK_GRAY="\e[100m"
 ALG=0
-echo -e "\e[100m\e[1m\e[1;30m"
+echo -e "\e[100m\e[1m"
 clear
-echo -e "\e[100m    \e[1;46m┌─────────────────────────────┐\e[0m"
-echo -e "\e[100m    \e[1;46m│Rofi Menu Installation Wizard│\e[0m"
-echo -e "\e[100m    \e[1;46m├─────────────────────────────┤\e[0m"
-echo -e "\e[100m    \e[1;46m│Select your favorite terminal│\e[0m"
-echo -e "\e[100m    \e[1;46m└─────────────────────────────┘\e[0m"
-echo -e "\e[100m    \e[1;46m┌─────────────────────────────┐\e[0m"
-echo -e "\e[100m    \e[1;46m│1) Konsole                   │\e[0m"
-echo -e "\e[100m    \e[1;46m│2) Tilix                     │\e[0m"
-echo -e "\e[100m    \e[1;46m│3) Gnome Terminal            │\e[0m"
-echo -e "\e[100m    \e[1;46m│4) Terminator                │\e[0m"
-echo -e "\e[100m    \e[1;46m│5) Alacritty                 │\e[0m"
-echo -e "\e[100m    \e[1;46m│6) Xfce Terminal             │\e[0m"
-echo -e "\e[100m    \e[1;46m└─────────────────────────────┘\e[0m"
-echo -e "\e[100m     \e[1;46m\e[0m"
+echo -e "\e[1;30m\e[100m    \e[1;46m┌─────────────────────────────┐\e[0m"
+echo -e "\e[1;30m\e[100m    \e[1;46m│Rofi Menu Installation Wizard│\e[0m"
+echo -e "\e[1;30m\e[100m    \e[1;46m├─────────────────────────────┤\e[0m"
+echo -e "\e[1;30m\e[100m    \e[1;46m│Select your favorite terminal│\e[0m"
+echo -e "\e[1;30m\e[100m    \e[1;46m└─────────────────────────────┘\e[0m"
+echo -e "\e[1;30m\e[100m    \e[1;46m┌─────────────────────────────┐\e[0m"
+echo -e "\e[1;30m\e[100m    \e[1;46m│1) Konsole                   │\e[0m"
+echo -e "\e[1;30m\e[100m    \e[1;46m│2) Tilix                     │\e[0m"
+echo -e "\e[1;30m\e[100m    \e[1;46m│3) Gnome Terminal            │\e[0m"
+echo -e "\e[1;30m\e[100m    \e[1;46m│4) Terminator                │\e[0m"
+echo -e "\e[1;30m\e[100m    \e[1;46m│5) Alacritty                 │\e[0m"
+echo -e "\e[1;30m\e[100m    \e[1;46m│6) Xfce Terminal             │\e[0m"
+echo -e "\e[1;30m\e[100m    \e[1;46m└─────────────────────────────┘\e[0m"
+echo -e "\e[1;30m\e[100m     \e[1;46m\e[0m"
 while [ $ALG == 0 ]; do
-echo -e "\e[100m\e[1m\e[1;30m"
+echo -e "\e[100m\e[1m"
 read input2
 if [ $input2 == 1 ]; then
-echo -e "\e[100m\e[1m\e[1;30m"
+echo -e "\e[100m\e[1m"
 clear
-	echo -e "\e[100m    \e[1;46m┌──────────────────────┐\e[0m"
-	echo -e "\e[100m    \e[1;46m│Thanks for your choice│\e[0m"
-	echo -e "\e[100m    \e[1;46m└──────────────────────┘\e[0m"
+	echo -e "\e[1;30m\e[100m    \e[1;46m┌──────────────────────┐\e[0m"
+	echo -e "\e[1;30m\e[100m    \e[1;46m│Thanks for your choice│\e[0m"
+	echo -e "\e[1;30m\e[100m    \e[1;46m└──────────────────────┘\e[0m"
 	sleep 0.5
 	echo 'konsole -e tty-clock &' >> Applets/'Open the watch'
 	echo 'konsole -e tty-clock &' >> dmenu/Applets/'Open the watch'
@@ -42,11 +42,11 @@ clear
 	break
 		
 elif [ $input2 == 2 ]; then
-echo -e "\e[100m\e[1m\e[1;30m"
+echo -e "\e[100m\e[1m"
 clear
-	echo -e "\e[100m    \e[1;46m┌──────────────────────┐\e[0m"
-	echo -e "\e[100m    \e[1;46m│Thanks for your choice│\e[0m"
-	echo -e "\e[100m    \e[1;46m└──────────────────────┘\e[0m"
+	echo -e "\e[1;30m\e[100m    \e[1;46m┌──────────────────────┐\e[0m"
+	echo -e "\e[1;30m\e[100m    \e[1;46m│Thanks for your choice│\e[0m"
+	echo -e "\e[1;30m\e[100m    \e[1;46m└──────────────────────┘\e[0m"
 	sleep 0.5
 	echo 'tilix -e tty-clock &' >> Applets/'Open the watch'
 	echo 'tilix -e tty-clock &' >> dmenu/Applets/'Open the watch'
@@ -56,11 +56,11 @@ clear
 	break
 		
 elif [ $input2 == 3 ]; then
-echo -e "\e[100m\e[1m\e[1;30m"
+echo -e "\e[100m\e[1m"
 clear
-	echo -e "\e[100m    \e[1;46m┌──────────────────────┐\e[0m"
-	echo -e "\e[100m    \e[1;46m│Thanks for your choice│\e[0m"
-	echo -e "\e[100m    \e[1;46m└──────────────────────┘\e[0m"
+	echo -e "\e[1;30m\e[100m    \e[1;46m┌──────────────────────┐\e[0m"
+	echo -e "\e[1;30m\e[100m    \e[1;46m│Thanks for your choice│\e[0m"
+	echo -e "\e[1;30m\e[100m    \e[1;46m└──────────────────────┘\e[0m"
 	sleep 0.5
 	echo 'gnome-terminal -e tty-clock &' >> Applets/'Open the watch'
 	echo 'gnome-terminal -e tty-clock &' >> dmenu/Applets/'Open the watch'
@@ -71,11 +71,11 @@ clear
 	break
 		
 elif [ $input2 == 4 ]; then
-echo -e "\e[100m\e[1m\e[1;30m"
+echo -e "\e[100m\e[1m"
 clear
-	echo -e "\e[100m    \e[1;46m┌──────────────────────┐\e[0m"
-	echo -e "\e[100m    \e[1;46m│Thanks for your choice│\e[0m"
-	echo -e "\e[100m    \e[1;46m└──────────────────────┘\e[0m"
+	echo -e "\e[1;30m\e[100m    \e[1;46m┌──────────────────────┐\e[0m"
+	echo -e "\e[1;30m\e[100m    \e[1;46m│Thanks for your choice│\e[0m"
+	echo -e "\e[1;30m\e[100m    \e[1;46m└──────────────────────┘\e[0m"
 	sleep 0.5
 	echo 'terminator -e tty-clock &' >> Applets/'Open the watch'
 	echo 'terminator -e tty-clock &' >> dmenu/Applets/'Open the watch'
@@ -86,11 +86,11 @@ clear
 	break
 		
 elif [ $input2 == 4 ]; then
-echo -e "\e[100m\e[1m\e[1;30m"
+echo -e "\e[100m\e[1m"
 clear
-	echo -e "\e[100m    \e[1;46m┌──────────────────────┐\e[0m"
-	echo -e "\e[100m    \e[1;46m│Thanks for your choice│\e[0m"
-	echo -e "\e[100m    \e[1;46m└──────────────────────┘\e[0m"
+	echo -e "\e[1;30m\e[100m    \e[1;46m┌──────────────────────┐\e[0m"
+	echo -e "\e[1;30m\e[100m    \e[1;46m│Thanks for your choice│\e[0m"
+	echo -e "\e[1;30m\e[100m    \e[1;46m└──────────────────────┘\e[0m"
 	sleep 0.5
 	echo 'xfce4-terminal -e tty-clock &' >> Applets/'Open the watch'
 	echo 'xfce4-terminal -e tty-clock &' >> dmenu/Applets/'Open the watch'
@@ -101,11 +101,11 @@ clear
 	break
 
 elif [ $input2 == 4 ]; then
-echo -e "\e[100m\e[1m\e[1;30m"
+echo -e "\e[100m\e[1m"
 clear
-	echo -e "\e[100m    \e[1;46m┌──────────────────────┐\e[0m"
-	echo -e "\e[100m    \e[1;46m│Thanks for your choice│\e[0m"
-	echo -e "\e[100m    \e[1;46m└──────────────────────┘\e[0m"
+	echo -e "\e[1;30m\e[100m    \e[1;46m┌──────────────────────┐\e[0m"
+	echo -e "\e[1;30m\e[100m    \e[1;46m│Thanks for your choice│\e[0m"
+	echo -e "\e[1;30m\e[100m    \e[1;46m└──────────────────────┘\e[0m"
 	sleep 0.5
 	echo 'alacritty -e tty-clock &' >> Applets/'Open the watch'
 	echo 'alacritty -e tty-clock &' >> dmenu/Applets/'Open the watch'
@@ -115,25 +115,25 @@ clear
 	./Dependencias
 	break
 else 
-echo -e "\e[100m\e[1m\e[1;30m"
+echo -e "\e[100m\e[1m"
 clear
-	echo -e "\e[100m    \e[1;46m┌─────────────────────────────────────────────────────┐\e[0m" 
-	echo -e "\e[100m    \e[1;46m│\e[31mChoose your favorite terminal by typing these numbers\e[0m\e[100m\e[1;30m\e[1;46m\e[1m│\e[0m"
-	echo -e "\e[100m    \e[1;46m└─────────────────────────────────────────────────────┘\e[0m"
-	echo -e "\e[100m    \e[1;46m┌─────────────────────────────┐\e[0m"
-	echo -e "\e[100m    \e[1;46m│Rofi Menu Installation Wizard│\e[0m"
-	echo -e "\e[100m    \e[1;46m├─────────────────────────────┤\e[0m"
-	echo -e "\e[100m    \e[1;46m│Select your favorite terminal│\e[0m"
-	echo -e "\e[100m    \e[1;46m└─────────────────────────────┘\e[0m"
-	echo -e "\e[100m    \e[1;46m┌─────────────────────────────┐\e[0m"
-	echo -e "\e[100m    \e[1;46m│1) Konsole                   │\e[0m"
-	echo -e "\e[100m    \e[1;46m│2) Tilix                     │\e[0m"
-	echo -e "\e[100m    \e[1;46m│3) Gnome Terminal            │\e[0m"
-	echo -e "\e[100m    \e[1;46m│4) Terminator                │\e[0m"
-	echo -e "\e[100m    \e[1;46m│5) Alacritty                 │\e[0m"
-	echo -e "\e[100m    \e[1;46m│6) Xfce Terminal             │\e[0m"
-	echo -e "\e[100m    \e[1;46m└─────────────────────────────┘\e[0m"
-	echo -e "\e[100m     \e[1;46m\e[0m"
+	echo -e "\e[1;30m\e[100m    \e[1;46m┌─────────────────────────────────────────────────────┐\e[0m" 
+	echo -e "\e[1;30m\e[100m    \e[1;46m│\e[31mChoose your favorite terminal by typing these numbers\e[0m\e[100m\e[1;30m\e[1;46m\e[1m│\e[0m"
+	echo -e "\e[1;30m\e[100m    \e[1;46m└─────────────────────────────────────────────────────┘\e[0m"
+	echo -e "\e[1;30m\e[100m    \e[1;46m┌─────────────────────────────┐\e[0m"
+	echo -e "\e[1;30m\e[100m    \e[1;46m│Rofi Menu Installation Wizard│\e[0m"
+	echo -e "\e[1;30m\e[100m    \e[1;46m├─────────────────────────────┤\e[0m"
+	echo -e "\e[1;30m\e[100m    \e[1;46m│Select your favorite terminal│\e[0m"
+	echo -e "\e[1;30m\e[100m    \e[1;46m└─────────────────────────────┘\e[0m"
+	echo -e "\e[1;30m\e[100m    \e[1;46m┌─────────────────────────────┐\e[0m"
+	echo -e "\e[1;30m\e[100m    \e[1;46m│1) Konsole                   │\e[0m"
+	echo -e "\e[1;30m\e[100m    \e[1;46m│2) Tilix                     │\e[0m"
+	echo -e "\e[1;30m\e[100m    \e[1;46m│3) Gnome Terminal            │\e[0m"
+	echo -e "\e[1;30m\e[100m    \e[1;46m│4) Terminator                │\e[0m"
+	echo -e "\e[1;30m\e[100m    \e[1;46m│5) Alacritty                 │\e[0m"
+	echo -e "\e[1;30m\e[100m    \e[1;46m│6) Xfce Terminal             │\e[0m"
+	echo -e "\e[1;30m\e[100m    \e[1;46m└─────────────────────────────┘\e[0m"
+	echo -e "\e[1;30m\e[100m     \e[1;46m\e[0m"
 	fi
 	case $ALG in
 	
