@@ -7,7 +7,7 @@
 #BACK_YELLOW="\e[103m"
 #BACK_GRAY="\e[100m"
 ALG=0
-echo -e "\e[100m\e[1m"
+echo -e "\e[100m\e[1m\e[1;30m"
 clear
 echo -e "\e[100m    \e[1;46m┌─────────────────────────────┐\e[0m"
 echo -e "\e[100m    \e[1;46m│Rofi Menu Installation Wizard│\e[0m"
@@ -24,10 +24,10 @@ echo -e "\e[100m    \e[1;46m│6) Xfce Terminal             │\e[0m"
 echo -e "\e[100m    \e[1;46m└─────────────────────────────┘\e[0m"
 echo -e "\e[100m     \e[1;46m\e[0m"
 while [ $ALG == 0 ]; do
-echo -e "\e[100m\e[1m"
+echo -e "\e[100m\e[1m\e[1;30m"
 read input2
 if [ $input2 == 1 ]; then
-echo -e "\e[100m\e[1m"
+echo -e "\e[100m\e[1m\e[1;30m"
 clear
 	echo -e "\e[100m    \e[1;46m┌──────────────────────┐\e[0m"
 	echo -e "\e[100m    \e[1;46m│Thanks for your choice│\e[0m"
@@ -42,7 +42,7 @@ clear
 	break
 		
 elif [ $input2 == 2 ]; then
-echo -e "\e[100m\e[1m"
+echo -e "\e[100m\e[1m\e[1;30m"
 clear
 	echo -e "\e[100m    \e[1;46m┌──────────────────────┐\e[0m"
 	echo -e "\e[100m    \e[1;46m│Thanks for your choice│\e[0m"
@@ -56,7 +56,7 @@ clear
 	break
 		
 elif [ $input2 == 3 ]; then
-echo -e "\e[100m\e[1m"
+echo -e "\e[100m\e[1m\e[1;30m"
 clear
 	echo -e "\e[100m    \e[1;46m┌──────────────────────┐\e[0m"
 	echo -e "\e[100m    \e[1;46m│Thanks for your choice│\e[0m"
@@ -71,7 +71,7 @@ clear
 	break
 		
 elif [ $input2 == 4 ]; then
-echo -e "\e[100m\e[1m"
+echo -e "\e[100m\e[1m\e[1;30m"
 clear
 	echo -e "\e[100m    \e[1;46m┌──────────────────────┐\e[0m"
 	echo -e "\e[100m    \e[1;46m│Thanks for your choice│\e[0m"
@@ -86,7 +86,7 @@ clear
 	break
 		
 elif [ $input2 == 4 ]; then
-echo -e "\e[100m\e[1m"
+echo -e "\e[100m\e[1m\e[1;30m"
 clear
 	echo -e "\e[100m    \e[1;46m┌──────────────────────┐\e[0m"
 	echo -e "\e[100m    \e[1;46m│Thanks for your choice│\e[0m"
@@ -101,7 +101,7 @@ clear
 	break
 
 elif [ $input2 == 4 ]; then
-echo -e "\e[100m\e[1m"
+echo -e "\e[100m\e[1m\e[1;30m"
 clear
 	echo -e "\e[100m    \e[1;46m┌──────────────────────┐\e[0m"
 	echo -e "\e[100m    \e[1;46m│Thanks for your choice│\e[0m"
@@ -115,10 +115,10 @@ clear
 	./Dependencias
 	break
 else 
-echo -e "\e[100m\e[1m"
+echo -e "\e[100m\e[1m\e[1;30m"
 clear
 	echo -e "\e[100m    \e[1;46m┌─────────────────────────────────────────────────────┐\e[0m" 
-	echo -e "\e[100m    \e[1;46m│\e[31mChoose your favorite terminal by typing these numbers\e[0m\e[100m\e[1;46m\e[1m│\e[0m"
+	echo -e "\e[100m    \e[1;46m│\e[31mChoose your favorite terminal by typing these numbers\e[0m\e[100m\e[1;30m\e[1;46m\e[1m│\e[0m"
 	echo -e "\e[100m    \e[1;46m└─────────────────────────────────────────────────────┘\e[0m"
 	echo -e "\e[100m    \e[1;46m┌─────────────────────────────┐\e[0m"
 	echo -e "\e[100m    \e[1;46m│Rofi Menu Installation Wizard│\e[0m"
