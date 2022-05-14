@@ -14,6 +14,7 @@ cd usr/bin
 sudo cp -r $HOME/.Rofi-menu/Spanish/rofi-menu .
 sudo chmod +x rofi-menu
 ALG=0
+while [ $ALG == 0 ]; do
 echo -e "\e[100m\e[1m"
 clear
 echo -e "\e[100m    ┌────────────────────────────────────────────────────────────────────────────────────────────────────────────┐"
@@ -21,8 +22,6 @@ echo -e "\e[100m    │Escriba si, si tiene todos los paquetes instalados de est
 echo -e "\e[100m    │tty-clock-git, rofi, scrcpy, hack-nerd-fonts                                                                │"
 echo -e "\e[100m    └────────────────────────────────────────────────────────────────────────────────────────────────────────────┘"
 echo -e "\e[100m     "
-while [ $ALG == 0 ]; do
-
 read input
 if [ $input == si ]; then
 	echo -e "\e[100m\e[1m"
