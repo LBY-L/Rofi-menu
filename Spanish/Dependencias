@@ -16,13 +16,13 @@ sudo chmod +x rofi-menu
 ALG=0
 echo -e "\e[100m\e[1m\e[1;30m"
 clear
-echo -e "\e[100m     \e[1;46m┌─────────────────────────────┐\e[0m"
-echo -e "\e[100m     \e[1;46m│Rofi Menu Installation Wizard│\e[0m"
-echo -e "\e[100m    \e[1;46m┌┴─────────────────────────────┴─────────────────────────────────────────────────────────────────────────────┐\e[0m"
-echo -e "\e[100m    \e[1;46m│Escriba si, si tiene todos los paquetes instalados de esta lista y no, si no tiene alguno o ninguno:        │\e[0m"
-echo -e "\e[100m    \e[1;46m│tty-clock-git, rofi, scrcpy, hack-nerd-fonts                                                                │\e[0m"
-echo -e "\e[100m    \e[1;46m└────────────────────────────────────────────────────────────────────────────────────────────────────────────┘\e[0m"
-echo -e "\e[100m     \e[1;46m"
+echo -e "\e[1;30m\e[100m     \e[1;46m┌─────────────────────────────┐\e[0m"
+echo -e "\e[1;30m\e[100m     \e[1;46m│Rofi Menu Installation Wizard│\e[0m"
+echo -e "\e[1;30m\e[100m    \e[1;46m┌┴─────────────────────────────┴─────────────────────────────────────────────────────────────────────────────┐\e[0m"
+echo -e "\e[1;30m\e[100m    \e[1;46m│Escriba si, si tiene todos los paquetes instalados de esta lista y no, si no tiene alguno o ninguno:        │\e[0m"
+echo -e "\e[1;30m\e[100m    \e[1;46m│tty-clock-git, rofi, scrcpy, hack-nerd-fonts                                                                │\e[0m"
+echo -e "\e[1;30m\e[100m    \e[1;46m└────────────────────────────────────────────────────────────────────────────────────────────────────────────┘\e[0m"
+echo -e "\e[1;30m\e[100m     \e[1;46m"
 while [ $ALG == 0 ]; do
 echo -e "\e[100m\e[1m\e[1;30m"
 read input
