@@ -3,12 +3,12 @@ cd $HOME
 cd .Rofi-menu/Spanish
 function help {
         echo -e "    \e[100m\e[1m\e[31m┌──────────[HELP]──────────┐\e[0m"
-        echo -e "    \e[100m\e[1m\e[31m│-h --help   esta ventana  │\e[0m"
-        echo -e "    \e[100m\e[1m\e[31m│-n   tema normal          │\e[0m"
-        echo -e "    \e[100m\e[1m\e[31m│-f   tema fancy           │\e[0m"
-        echo -e "    \e[100m\e[1m\e[31m│-d   tema dmenu           │\e[0m"
-        echo -e "    \e[100m\e[1m\e[31m│-u   desinstalar rofi-menu│\e[0m"
-        echo -e "    \e[100m\e[1m\e[31m│-up   actualizar rofi-menu│\e[0m"
+        echo -e "    \e[100m\e[1m\e[31m│\e[34m-h --help\e[0m\e[100m\e[1m\e[31m   esta ventana  │\e[0m"
+        echo -e "    \e[100m\e[1m\e[31m│\e[34m-n\e[0m\e[100m\e[1m\e[31m   tema normal          │\e[0m"
+        echo -e "    \e[100m\e[1m\e[31m│\e[34m-f\e[0m\e[100m\e[1m\e[31m   tema fancy           │\e[0m"
+        echo -e "    \e[100m\e[1m\e[31m│\e[34m-d\e[0m\e[100m\e[1m\e[31m   tema dmenu           │\e[0m"
+        echo -e "    \e[100m\e[1m\e[31m│\e[34m-u\e[0m\e[100m\e[1m\e[31m   desinstalar rofi-menu│\e[0m"
+        echo -e "    \e[100m\e[1m\e[31m│\e[34m-up\e[0m\e[100m\e[1m\e[31m   actualizar rofi-menu│\e[0m"
         echo -e "    \e[100m\e[1m\e[31m└──────────[V1.1]──────────┘\e[0m"
 }
 prompt=$1
