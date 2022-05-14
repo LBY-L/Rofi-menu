@@ -10,7 +10,7 @@ ALG=0
 echo -e "\e[100m\e[1m"
 clear
 echo -e "\e[1;30m\e[100m    \e[1;46m┌─────────────────────────────┐\e[0m"
-echo -e "\e[1;30m\e[100m    \e[1;46m│Rofi Menu Installation Wizard│\e[0m"
+echo -e "\e[1;30m\e[100m    \e[1;46m│\e[31mRofi Menu Installation Wizard\e[0m\e[1;46m\e[1;30m│\e[0m"
 echo -e "\e[1;30m\e[100m    \e[1;46m├─────────────────────────────┤\e[0m"
 echo -e "\e[1;30m\e[100m    \e[1;46m│Select your favorite terminal│\e[0m"
 echo -e "\e[1;30m\e[100m    \e[1;46m└─────────────────────────────┘\e[0m"
