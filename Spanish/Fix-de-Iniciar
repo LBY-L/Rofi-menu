@@ -7,6 +7,7 @@
 #BACK_YELLOW="\e[103m"
 #BACK_GRAY="\e[100m"
 ALG=0
+while [ $ALG == 0 ]; do
 echo -e "\e[100m\e[1m"
 clear
 echo -e "\e[100m    ┌───────────────────────────────┐"
@@ -21,8 +22,6 @@ echo -e "\e[100m    │5) Alacritty                   │"
 echo -e "\e[100m    │6) Xfce Terminal               │"
 echo -e "\e[100m    └───────────────────────────────┘"
 echo -e "\e[100m     "
-while [ $ALG == 0 ]; do
-	
 read input2
 if [ $input2 == 1 ]; then
 echo -e "\e[100m\e[1m"
