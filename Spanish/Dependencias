@@ -27,13 +27,6 @@ while [ $ALG == 0 ]; do
 echo -e "\e[100m\e[1m"
 read input
 if [ $input == si ]; then
-	echo -e "\e[100m\e[1m"
-	clear
-	echo -e "\e[1;30m\e[100m    \e[1;46m┌─────┐\e[0m"
-	echo -e "\e[1;30m\e[100m    \e[1;46m│Adios│\e[0m"
-	echo -e "\e[1;30m\e[100m    \e[1;46m└─────┘\e[0m"
-	clear
-	sleep 1
 	break
 elif [ $input == no ]; then
 	echo -e "\e[100m\e[1m"
