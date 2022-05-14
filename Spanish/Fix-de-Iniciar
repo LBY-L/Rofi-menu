@@ -22,7 +22,7 @@ echo -e "\e[1;30m\e[100m    \e[1;46m│4) Terminator                  │\e[0m"
 echo -e "\e[1;30m\e[100m    \e[1;46m│5) Alacritty                   │\e[0m"
 echo -e "\e[1;30m\e[100m    \e[1;46m│6) Xfce Terminal               │\e[0m"
 echo -e "\e[1;30m\e[100m    \e[1;46m└───────────────────────────────┘\e[0m"
-echo -e "\e[1;30m\e[100m     \e[1;46m\e[0m"
+echo -e "\e[1;30m\e[100m     \e[0m"
 while [ $ALG == 0 ]; do
 echo -e "\e[100m\e[1m"
 read input2
@@ -133,7 +133,7 @@ clear
 	echo -e "\e[1;30m\e[100m    \e[1;46m│5) Alacritty                   │\e[0m"
 	echo -e "\e[1;30m\e[100m    \e[1;46m│6) Xfce Terminal               │\e[0m"
 	echo -e "\e[1;30m\e[100m    \e[1;46m└───────────────────────────────┘\e[0m"
-	echo -e "\e[1;30m\e[100m     \e[1;46m\e[0m"
+	echo -e "\e[1;30m\e[100m     \e[0m"
 	fi
 	case $ALG in
 	
