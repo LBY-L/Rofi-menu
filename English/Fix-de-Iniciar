@@ -11,6 +11,8 @@ while [ $ALG == 0 ]; do
 echo -e "\e[100m\e[1m"
 clear
 echo -e "\e[100m    ┌─────────────────────────────┐"
+echo -e "\e[100m    │Rofi Menu Installation Wizard│"
+echo -e "\e[100m    ├─────────────────────────────┤"
 echo -e "\e[100m    │Select your favorite terminal│"
 echo -e "\e[100m    └─────────────────────────────┘"
 echo -e "\e[100m    ┌─────────────────────────────┐"
@@ -118,6 +120,8 @@ clear
 	echo -e "\e[100m    │\e[31mChoose your favorite terminal by typing these numbers\e[0m\e[100m\e[1m│"
 	echo -e "\e[100m    └─────────────────────────────────────────────────────┘"
 	echo -e "\e[100m    ┌─────────────────────────────┐"
+	echo -e "\e[100m    │Rofi Menu Installation Wizard│"
+	echo -e "\e[100m    ├─────────────────────────────┤"
 	echo -e "\e[100m    │Select your favorite terminal│"
 	echo -e "\e[100m    └─────────────────────────────┘"
 	echo -e "\e[100m    ┌─────────────────────────────┐"
