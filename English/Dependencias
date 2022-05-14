@@ -27,13 +27,6 @@ while [ $ALG == 0 ]; do
 echo -e "\e[100m\e[1m"
 read input
 if [ $input == yes ]; then
-	echo -e "\e[100m\e[1m"
-	clear
-	echo -e "\e[1;30m\e[100m    \e[1;46m┌────────┐\e[0m"
-	echo -e "\e[1;30m\e[100m    \e[1;46m│Good bye│\e[0m"
-	echo -e "\e[1;30m\e[100m    \e[1;46m└────────┘\e[0m"
-	clear
-	sleep 1
 	break
 elif [ $input == no ]; then
 	echo -e "\e[100m\e[1m"
@@ -56,11 +49,7 @@ elif [ $input == no ]; then
 	echo -e "\e[1;30m\e[100m    \e[1;46m┌──────────────────────────────────────┐\e[0m"
 	echo -e "\e[1;30m\e[100m    \e[1;46m│Packages have been installed correctly│\e[0m"
 	echo -e "\e[1;30m\e[100m    \e[1;46m└──────────────────────────────────────┘\e[0m"
-	sleep 0.5
-	echo -e "\e[1;30m\e[100m    \e[1;46m┌────────┐\e[0m"
-	echo -e "\e[1;30m\e[100m    \e[1;46m│Good bye│\e[0m"
-	echo -e "\e[1;30m\e[100m    \e[1;46m└────────┘\e[0m"
-	sleep 2
+	sleep 1
 	clear
 	break
 	
