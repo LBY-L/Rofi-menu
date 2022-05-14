@@ -17,9 +17,9 @@ ALG=0
 while [ $ALG == 0 ]; do
 echo -e "\e[100m\e[1m"
 clear
-echo -e "\e[100m    ┌────────────────────────────┐"
-echo -e "\e[100m    │Rofi Menu Instalation Wizard│"
-echo -e "\e[100m    ┌────────────────────────────┤───────────────────────────────────────────────────────────────────────────────┐"
+echo -e "\e[100m     ┌────────────────────────────┐"
+echo -e "\e[100m     │Rofi Menu Instalation Wizard│"
+echo -e "\e[100m    ┌┴────────────────────────────┴──────────────────────────────────────────────────────────────────────────────┐"
 echo -e "\e[100m    │Escriba si, si tiene todos los paquetes instalados de esta lista y no, si no tiene alguno o ninguno:        │"
 echo -e "\e[100m    │tty-clock-git, rofi, scrcpy, hack-nerd-fonts                                                                │"
 echo -e "\e[100m    └────────────────────────────────────────────────────────────────────────────────────────────────────────────┘"
@@ -69,7 +69,9 @@ else
 	echo -e "\e[100m    ┌──────────────────────────────────────────────────────────────────────────────┐"
 	echo -e "\e[100m    │\e[31mDebe de escribir si si tene todos los paquetes y no sin no tiene uno o ninguno\e[0m\e[100m\e[1m│"
 	echo -e "\e[100m    └──────────────────────────────────────────────────────────────────────────────┘"
-	echo -e "\e[100m    ┌────────────────────────────────────────────────────────────────────────────────────────────────────────────┐"
+	echo -e "\e[100m     ┌────────────────────────────┐"
+	echo -e "\e[100m     │Rofi Menu Instalation Wizard│"
+	echo -e "\e[100m    ┌┴────────────────────────────┴──────────────────────────────────────────────────────────────────────────────┐"
 	echo -e "\e[100m    │Escriba si, si tiene todos los paquetes instalados de esta lista y no, si no tiene alguno o ninguno:        │"
 	echo -e "\e[100m    │tty-clock-git, rofi, scrcpy, hack-nerd-fonts                                                                │"
 	echo -e "\e[100m    └────────────────────────────────────────────────────────────────────────────────────────────────────────────┘"
