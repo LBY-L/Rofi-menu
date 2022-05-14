@@ -14,69 +14,69 @@ cd usr/bin
 sudo cp -r $HOME/.Rofi-menu/English/rofi-menu .
 sudo chmod +x rofi-menu
 ALG=0
-echo -e "\e[100m\e[1m\e[1;30m"
+echo -e "\e[100m\e[1m"
 clear       
-echo -e "\e[100m     \e[1;46m┌─────────────────────────────┐\e[0m"
-echo -e "\e[100m     \e[1;46m│Select your favorite terminal│\e[0m"
-echo -e "\e[100m    \e[1;46m┌┴─────────────────────────────┴─────────────────────────────────────────────────────────────────────────────┐\e[0m"
-echo -e "\e[100m    \e[1;46m│Type yes, if you have all the packages installed from this list and no, if you don't have any or none:      │\e[0m"
-echo -e "\e[100m    \e[1;46m│tty-clock-git, rofi, scrcpy, hack-nerd-fonts                                                                │\e[0m"
-echo -e "\e[100m    \e[1;46m└────────────────────────────────────────────────────────────────────────────────────────────────────────────┘\e[0m"
-echo -e "\e[100m     \e[1;46m"
+echo -e "\e[1;30m\e[100m     \e[1;46m┌─────────────────────────────┐\e[0m"
+echo -e "\e[1;30m\e[100m     \e[1;46m│Select your favorite terminal│\e[0m"
+echo -e "\e[1;30m\e[100m    \e[1;46m┌┴─────────────────────────────┴─────────────────────────────────────────────────────────────────────────────┐\e[0m"
+echo -e "\e[1;30m\e[100m    \e[1;46m│Type yes, if you have all the packages installed from this list and no, if you don't have any or none:      │\e[0m"
+echo -e "\e[1;30m\e[100m    \e[1;46m│tty-clock-git, rofi, scrcpy, hack-nerd-fonts                                                                │\e[0m"
+echo -e "\e[1;30m\e[100m    \e[1;46m└────────────────────────────────────────────────────────────────────────────────────────────────────────────┘\e[0m"
+echo -e "\e[1;30m\e[100m     \e[1;46m"
 while [ $ALG == 0 ]; do
 echo -e "\e[100m\e[1m"
 read input
 if [ $input == yes ]; then
-	echo -e "\e[100m\e[1m\e[1;30m"
+	echo -e "\e[100m\e[1m"
 	clear
-	echo -e "\e[100m    \e[1;46m┌────────┐\e[0m"
-	echo -e "\e[100m    \e[1;46m│Good bye│\e[0m"
-	echo -e "\e[100m    \e[1;46m└────────┘\e[0m"
+	echo -e "\e[1;30m\e[100m    \e[1;46m┌────────┐\e[0m"
+	echo -e "\e[1;30m\e[100m    \e[1;46m│Good bye│\e[0m"
+	echo -e "\e[1;30m\e[100m    \e[1;46m└────────┘\e[0m"
 	clear
 	sleep 1
 	break
 elif [ $input == no ]; then
-	echo -e "\e[100m\e[1m\e[1;30m"
+	echo -e "\e[100m\e[1m"
 	clear
 	sudo pacman -S yay --noconfirm
-	echo -e "\e[100m\e[1m\e[1;30m"
+	echo -e "\e[100m\e[1m"
 	clear
 	sudo pacman -S rofi --noconfirm
-	echo -e "\e[100m\e[1m\e[1;30m"
+	echo -e "\e[100m\e[1m"
 	clear
 	yay -S tty-clock-git --noconfirm
-	echo -e "\e[100m\e[1m\e[1;30m"
+	echo -e "\e[100m\e[1m"
 	clear
 	yay -S scrcpy --noconfirm
-	echo -e "\e[100m\e[1m\e[1;30m"
+	echo -e "\e[100m\e[1m"
 	clear
 	yay -S nerd-fonts-hack --noconfirm
-	echo -e "\e[100m\e[1m\e[1;30m"
+	echo -e "\e[100m\e[1m"
 	clear
-	echo -e "\e[100m    \e[1;46m┌──────────────────────────────────────┐\e[0m"
-	echo -e "\e[100m    \e[1;46m│Packages have been installed correctly│\e[0m"
-	echo -e "\e[100m    \e[1;46m└──────────────────────────────────────┘\e[0m"
+	echo -e "\e[1;30m\e[100m    \e[1;46m┌──────────────────────────────────────┐\e[0m"
+	echo -e "\e[1;30m\e[100m    \e[1;46m│Packages have been installed correctly│\e[0m"
+	echo -e "\e[1;30m\e[100m    \e[1;46m└──────────────────────────────────────┘\e[0m"
 	sleep 0.5
-	echo -e "\e[100m    \e[1;46m┌────────┐\e[0m"
-	echo -e "\e[100m    \e[1;46m│Good bye│\e[0m"
-	echo -e "\e[100m    \e[1;46m└────────┘\e[0m"
+	echo -e "\e[1;30m\e[100m    \e[1;46m┌────────┐\e[0m"
+	echo -e "\e[1;30m\e[100m    \e[1;46m│Good bye│\e[0m"
+	echo -e "\e[1;30m\e[100m    \e[1;46m└────────┘\e[0m"
 	sleep 2
 	clear
 	break
 	
 else 
-	echo -e "\e[100m\e[1m\e[1;30m"
+	echo -e "\e[100m\e[1m"
 	clear
-	echo -e "\e[100m    \e[1;46m┌──────────────────────────────────────────────────────────────────────────────────┐\e[0m"   
-	echo -e "\e[100m    \e[1;46m│\e[31mYou must write if you have all the packages and not if you do not have one or none\e[0m\e[100m\e[1;46m\e[1m│\e[0m"
-	echo -e "\e[100m    \e[1;46m└──────────────────────────────────────────────────────────────────────────────────┘\e[0m"   
-	echo -e "\e[100m     \e[1;46m┌─────────────────────────────┐\e[0m"
-	echo -e "\e[100m     \e[1;46m│Select your favorite terminal│\e[0m"
-	echo -e "\e[100m    \e[1;46m┌┴─────────────────────────────┴─────────────────────────────────────────────────────────────────────────────┐\e[0m"
-	echo -e "\e[100m    \e[1;46m│Type yes, if you have all the packages installed from this list and no, if you don't have any or none:      │\e[0m"
-	echo -e "\e[100m    \e[1;46m│tty-clock-git, rofi, scrcpy, hack-nerd-fonts                                                                │\e[0m"
-	echo -e "\e[100m    \e[1;46m└────────────────────────────────────────────────────────────────────────────────────────────────────────────┘\e[0m"
-	echo -e "\e[100m     \e[1;46m"
+	echo -e "\e[1;30m\e[100m    \e[1;46m┌──────────────────────────────────────────────────────────────────────────────────┐\e[0m"   
+	echo -e "\e[1;30m\e[100m    \e[1;46m│\e[31mYou must write if you have all the packages and not if you do not have one or none\e[0m\e[100m\e[1;46m\e[1m│\e[0m"
+	echo -e "\e[1;30m\e[100m    \e[1;46m└──────────────────────────────────────────────────────────────────────────────────┘\e[0m"   
+	echo -e "\e[1;30m\e[100m     \e[1;46m┌─────────────────────────────┐\e[0m"
+	echo -e "\e[1;30m\e[100m     \e[1;46m│Select your favorite terminal│\e[0m"
+	echo -e "\e[1;30m\e[100m    \e[1;46m┌┴─────────────────────────────┴─────────────────────────────────────────────────────────────────────────────┐\e[0m"
+	echo -e "\e[1;30m\e[100m    \e[1;46m│Type yes, if you have all the packages installed from this list and no, if you don't have any or none:      │\e[0m"
+	echo -e "\e[1;30m\e[100m    \e[1;46m│tty-clock-git, rofi, scrcpy, hack-nerd-fonts                                                                │\e[0m"
+	echo -e "\e[1;30m\e[100m    \e[1;46m└────────────────────────────────────────────────────────────────────────────────────────────────────────────┘\e[0m"
+	echo -e "\e[1;30m\e[100m     \e[1;46m"
 	fi
 	
 	case $ALG in
