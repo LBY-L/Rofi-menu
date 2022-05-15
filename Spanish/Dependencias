@@ -14,42 +14,44 @@ cd usr/bin
 sudo cp -r $HOME/.Rofi-menu/Spanish/rofi-menu .
 sudo chmod +x rofi-menu
 ALG=0
-echo -e "\e[100m\e[1m"
+echo -e "\e[1m"
 clear
-echo -e "\e[1;30m\e[100m     \e[1;46m┌─────────────────────────────┐\e[0m"
-echo -e "\e[1;30m\e[100m     \e[1;46m│\e[31mRofi Menu Installation Wizard\e[0m\e[1;46m\e[1;30m│\e[0m"
-echo -e "\e[1;30m\e[100m    \e[1;46m┌┴─────────────────────────────┴───────────────────────────────────┐\e[0m"
-echo -e "\e[1;30m\e[100m    \e[1;46m│Escriba si, si tiene todos los paquetes instalados de esta lista y│\e[0m"
-echo -e "\e[1;30m\e[100m    \e[1;46m│no, si no tiene alguno o ninguno:                                 │\e[0m"
-echo -e "\e[1;30m\e[100m    \e[1;46m│tty-clock-git, rofi, scrcpy, hack-nerd-fonts                      │\e[0m"
-echo -e "\e[1;30m\e[100m    \e[1;46m└──────────────────────────────────────────────────────────────────┘\e[0m"
-echo -e "\e[100m     \e[0m"
+echo -e "\e[1;30m     \e[1;44m┌─────────────────────────────┐\e[0m"
+echo -e "\e[1;30m     \e[1;44m│\e[31mRofi Menu Installation Wizard\e[0m\e[1;44m\e[1;30m│\e[0m"
+echo -e "\e[1;30m    \e[1;44m┌┴─────────────────────────────┴───────────────────────────────────┐\e[0m"
+echo -e "\e[1;30m    \e[1;44m│Escriba si, si tiene todos los paquetes instalados de esta lista y│\e[100m \e[0m"
+echo -e "\e[1;30m    \e[1;44m│no, si no tiene alguno o ninguno:                                 │\e[100m \e[0m"
+echo -e "\e[1;30m    \e[1;44m│tty-clock-git, rofi, scrcpy, hack-nerd-fonts                      │\e[100m \e[0m"
+echo -e "\e[1;30m    \e[1;44m└──────────────────────────────────────────────────────────────────┘\e[100m \e[0m"
+echo -e "\e[1;30m     \e[100m                                                                    \e[0m"
+echo -e "     \e[0m"
 while [ $ALG == 0 ]; do
-echo -e "\e[100m\e[1m"
+echo -e "\e[1m"
 read input
 if [ $input == si ]; then
 	break
 elif [ $input == no ]; then
-	echo -e "\e[100m\e[1m"
+	echo -e "\e[1m"
 	clear
-	sudo pacman -S yay --nconfirm
-	echo -e "\e[100m\e[1m"
+	sudo pacman -S yay --nconfirm 
+	echo -e "\e[1m"
 	clear
 	sudo pacman -S rofi --noconfirm
-	echo -e "\e[100m\e[1m"
+	echo -e "\e[1m"
 	clear
 	yay -S tty-clock-git --noconfirm
-	echo -e "\e[100m\e[1m"
+	echo -e "\e[1m"
 	clear
 	yay -S scrcpy --noconfirm
-	echo -e "\e[100m\e[1m"
+	echo -e "\e[1m"
 	clear
 	yay -S nerd-fonts-hack --noconfirm
-	echo -e "\e[100m\e[1m"
+	echo -e "\e[1m"
 	clear
-	echo -e "\e[1;30m\e[100m    \e[1;46m┌───────────────────────────────────────────┐\e[0m"
-	echo -e "\e[1;30m\e[100m    \e[1;46m│Se han instalado los paquetes correctamente│\e[0m"
-	echo -e "\e[1;30m\e[100m    \e[1;46m└───────────────────────────────────────────┘\e[0m"
+	echo -e "\e[1;30m    \e[1;46m┌───────────────────────────────────────────┐\e[0m"
+	echo -e "\e[1;30m    \e[1;46m│Se han instalado los paquetes correctamente│\e[100m \e[0m"
+	echo -e "\e[1;30m    \e[1;46m└───────────────────────────────────────────┘\e[100m \e[0m"
+	echo -e "\e[1;30m     \e[100m                                             \e[0m"
 	sleep 1
 	clear
 	break
@@ -57,18 +59,20 @@ elif [ $input == no ]; then
 else 
 	echo -e "\e[100m\e[1m"
 	clear
-	echo -e "\e[1;30m\e[100m    \e[1;46m┌──────────────────────────────────────────────────────────────────────────────┐\e[0m"
-	echo -e "\e[1;30m\e[100m    \e[1;46m│\e[31mDebe de escribir si si tene todos los paquetes y no sin no tiene uno o ninguno\e[0m\e[100m\e[1;30m\e[1;46m\e[1m│\e[0m"
-	echo -e "\e[1;30m\e[100m    \e[1;46m└──────────────────────────────────────────────────────────────────────────────┘\e[0m"
-	echo -e "\e[100m\e[1m "
-	echo -e "\e[1;30m\e[100m     \e[1;46m┌─────────────────────────────┐\e[0m"
-	echo -e "\e[1;30m\e[100m     \e[1;46m│\e[31mRofi Menu Installation Wizard\e[0m\e[1;30m\e[1;46m│\e[0m"
-	echo -e "\e[1;30m\e[100m    \e[1;46m┌┴─────────────────────────────┴───────────────────────────────────┐\e[0m"
-	echo -e "\e[1;30m\e[100m    \e[1;46m│Escriba si, si tiene todos los paquetes instalados de esta lista y│\e[0m"
-	echo -e "\e[1;30m\e[100m    \e[1;46m│no, si no tiene alguno o ninguno:                                 │\e[0m"
-	echo -e "\e[1;30m\e[100m    \e[1;46m│tty-clock-git, rofi, scrcpy, hack-nerd-fonts                      │\e[0m"
-	echo -e "\e[1;30m\e[100m    \e[1;46m└──────────────────────────────────────────────────────────────────┘\e[0m"
-	echo -e "\e[100m     \e[0m"
+	echo -e "\e[1;30m    \e[1;44m┌──────────────────────────────────────────────────────────────────────────────┐\e[0m"
+	echo -e "\e[1;30m    \e[1;44m│\e[31mDebe de escribir si si tene todos los paquetes y no sin no tiene uno o ninguno\e[0m\e[1;30m\e[1;44m\e[1m│\e[100m \e[0m"
+	echo -e "\e[1;30m    \e[1;44m└──────────────────────────────────────────────────────────────────────────────┘\e[100m \e[0m"
+	echo -e "\e[1;30m     \e[100m                                                                                \e[0m"
+	echo -e " "
+	echo -e "\e[1;30m     \e[1;44m┌─────────────────────────────┐\e[0m"
+	echo -e "\e[1;30m     \e[1;44m│\e[31mRofi Menu Installation Wizard\e[0m\e[1;44m\e[1;30m│\e[0m"
+	echo -e "\e[1;30m    \e[1;44m┌┴─────────────────────────────┴───────────────────────────────────┐\e[0m"
+	echo -e "\e[1;30m    \e[1;44m│Escriba si, si tiene todos los paquetes instalados de esta lista y│\e[100m \e[0m"
+	echo -e "\e[1;30m    \e[1;44m│no, si no tiene alguno o ninguno:                                 │\e[100m \e[0m"
+	echo -e "\e[1;30m    \e[1;44m│tty-clock-git, rofi, scrcpy, hack-nerd-fonts                      │\e[100m \e[0m"
+	echo -e "\e[1;30m    \e[1;44m└──────────────────────────────────────────────────────────────────┘\e[100m \e[0m"
+	echo -e "\e[1;30m     \e[100m                                                                    \e[0m"
+	echo -e "     \e[0m"
 	fi
 	
 	case $ALG in
