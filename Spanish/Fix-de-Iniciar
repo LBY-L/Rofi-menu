@@ -38,6 +38,9 @@ clear
 	echo 'konsole -e tty-clock &' >> Applets/'Abrir el reloj'
 	echo 'konsole -e tty-clock &' >> dmenu/Applets/'Abrir el reloj'
 	echo 'konsole -e tty-clock &' >> fancy/Applets/'Abrir el reloj'
+	echo 'konsole -e sh .hist &' >> Applets/'Consultar el hisorial de la shell'
+	echo 'konsole -e sh .hist &' >> dmenu/Applets/'Consultar el hisorial de la shell'
+	echo 'konsole -e sh .hist &' >> fancy/Applets/'Consultar el hisorial de la shell'
 	sleep 1
 	chmod +x Dependencias
 	./Dependencias
@@ -54,6 +57,9 @@ clear
 	echo 'tilix -e tty-clock &' >> Applets/'Abrir el reloj'
 	echo 'tilix -e tty-clock &' >> dmenu/Applets/'Abrir el reloj'
 	echo 'tilix -e tty-clock &' >> fancy/Applets/'Abrir el reloj'
+	echo 'tilix -e sh .hist &' >> Applets/'Consultar el hisorial de la shell'
+	echo 'tilix -e sh .hist &' >> dmenu/Applets/'Consultar el hisorial de la shell'
+	echo 'tilix -e sh .hist &' >> fancy/Applets/'Consultar el hisorial de la shell'
 	chmod +x Dependencias
 	./Dependencias
 	break
@@ -69,6 +75,9 @@ clear
 	echo 'gnome-terminal -e tty-clock &' >> Applets/'Abrir el reloj'
 	echo 'gnome-terminal -e tty-clock &' >> dmenu/Applets/'Abrir el reloj'
 	echo 'gnome-terminal -e tty-clock &' >> fancy/Applets/'Abrir el reloj'
+	echo 'gnome-terminal -e sh .hist &' >> Applets/'Consultar el hisorial de la shell'
+	echo 'gnome-terminal -e sh .hist &' >> dmenu/Applets/'Consultar el hisorial de la shell'
+	echo 'gnome-terminal -e sh .hist &' >> fancy/Applets/'Consultar el hisorial de la shell'
 	sleep 1
 	chmod +x Dependencias
 	./Dependencias
@@ -85,6 +94,9 @@ clear
 	echo 'terminator -e tty-clock &' >> Applets/'Abrir el reloj'
 	echo 'terminator -e tty-clock &' >> dmenu/Applets/'Abrir el reloj'
 	echo 'terminator -e tty-clock &' >> fancy/Applets/'Abrir el reloj'
+	echo 'terminator -e sh .hist &' >> Applets/'Consultar el hisorial de la shell'
+	echo 'terminator -e sh .hist &' >> dmenu/Applets/'Consultar el hisorial de la shell'
+	echo 'terminator -e sh .hist &' >> fancy/Applets/'Consultar el hisorial de la shell'
 	sleep 1
 	chmod +x Dependencias
 	./Dependencias
@@ -101,6 +113,9 @@ clear
 	echo 'xfce4-terminal -e tty-clock &' >> Applets/'Abrir el reloj'
 	echo 'xfce4-terminal -e tty-clock &' >> dmenu/Applets/'Abrir el reloj'
 	echo 'xfce4-terminal -e tty-clock &' >> fancy/Applets/'Abrir el reloj'
+	echo 'xfce4-terminal -e sh .hist &' >> Applets/'Consultar el hisorial de la shell'
+	echo 'xfce4-terminal -e sh .hist &' >> dmenu/Applets/'Consultar el hisorial de la shell'
+	echo 'xfce4-terminal -e sh .hist &' >> fancy/Applets/'Consultar el hisorial de la shell'
 	sleep 1
 	chmod +x Dependencias
 	./Dependencias
@@ -117,6 +132,9 @@ clear
 	echo 'alacritty -e tty-clock &' >> Applets/'Abrir el reloj'
 	echo 'alacritty -e tty-clock &' >> dmenu/Applets/'Abrir el reloj'
 	echo 'alacritty -e tty-clock &' >> fancy/Applets/'Abrir el reloj'
+	echo 'alacritty -e sh .hist &' >> Applets/'Consultar el hisorial de la shell'
+	echo 'alacritty -e sh .hist &' >> dmenu/Applets/'Consultar el hisorial de la shell'
+	echo 'alacritty -e sh .hist &' >> fancy/Applets/'Consultar el hisorial de la shell'
 	sleep 1
 	chmod +x Dependencias
 	./Dependencias
