@@ -38,6 +38,9 @@ clear
 	echo 'konsole -e tty-clock &' >> Applets/'Open the watch'
 	echo 'konsole -e tty-clock &' >> dmenu/Applets/'Open the watch'
 	echo 'konsole -e tty-clock &' >> fancy/Applets/'Open the watch'
+	echo 'konsole -e sh .hist &' >> Applets/'Consult the shell history'
+	echo 'konsole -e sh .hist &' >> dmenu/Applets/'Consult the shell history'
+	echo 'konsole -e sh .hist &' >> fancy/Applets/'Consult the shell history'
 	sleep 1
 	chmod +x Dependencias
 	./Dependencias
@@ -54,6 +57,9 @@ clear
 	echo 'tilix -e tty-clock &' >> Applets/'Open the watch'
 	echo 'tilix -e tty-clock &' >> dmenu/Applets/'Open the watch'
 	echo 'tilix -e tty-clock &' >> fancy/Applets/'Open the watch'
+	echo 'tilix -e sh .hist &' >> Applets/'Consult the shell history'
+	echo 'tilix -e sh .hist &' >> dmenu/Applets/'Consult the shell history'
+	echo 'tilix -e sh .hist &' >> fancy/Applets/'Consult the shell history'
 	chmod +x Dependencias
 	./Dependencias
 	break
@@ -69,6 +75,9 @@ clear
 	echo 'gnome-terminal -e tty-clock &' >> Applets/'Open the watch'
 	echo 'gnome-terminal -e tty-clock &' >> dmenu/Applets/'Open the watch'
 	echo 'gnome-terminal -e tty-clock &' >> fancy/Applets/'Open the watch'
+	echo 'gnome-terminal -e sh .hist &' >> Applets/'Consult the shell history'
+	echo 'gnome-terminal -e sh .hist &' >> dmenu/Applets/'Consult the shell history'
+	echo 'gnome-terminal -e sh .hist &' >> fancy/Applets/'Consult the shell history'
 	sleep 1
 	chmod +x Dependencias
 	./Dependencias
@@ -85,6 +94,9 @@ clear
 	echo 'terminator -e tty-clock &' >> Applets/'Open the watch'
 	echo 'terminator -e tty-clock &' >> dmenu/Applets/'Open the watch'
 	echo 'terminator -e tty-clock &' >> fancy/Applets/'Open the watch'
+	echo 'terminator -e sh .hist &' >> Applets/'Consult the shell history'
+	echo 'terminator -e sh .hist &' >> dmenu/Applets/'Consult the shell history'
+	echo 'terminator -e sh .hist &' >> fancy/Applets/'Consult the shell history'
 	sleep 1
 	chmod +x Dependencias
 	./Dependencias
@@ -101,6 +113,9 @@ clear
 	echo 'xfce4-terminal -e tty-clock &' >> Applets/'Open the watch'
 	echo 'xfce4-terminal -e tty-clock &' >> dmenu/Applets/'Open the watch'
 	echo 'xfce4-terminal -e tty-clock &' >> fancy/Applets/'Open the watch'
+	echo 'xfce4-terminal -e sh .hist &' >> Applets/'Consult the shell history'
+	echo 'xfce4-terminal -e sh .hist &' >> dmenu/Applets/'Consult the shell history'
+	echo 'xfce4-terminal -e sh .hist &' >> fancy/Applets/'Consult the shell history'
 	sleep 1
 	chmod +x Dependencias
 	./Dependencias
@@ -117,6 +132,9 @@ clear
 	echo 'alacritty -e tty-clock &' >> Applets/'Open the watch'
 	echo 'alacritty -e tty-clock &' >> dmenu/Applets/'Open the watch'
 	echo 'alacritty -e tty-clock &' >> fancy/Applets/'Open the watch'
+	echo 'alacritty -e sh .hist &' >> Applets/'Consult the shell history'
+	echo 'alacritty -e sh .hist &' >> dmenu/Applets/'Consult the shell history'
+	echo 'alacritty -e sh .hist &' >> fancy/Applets/'Consult the shell history'
 	sleep 1
 	chmod +x Dependencias
 	./Dependencias
