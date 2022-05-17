@@ -2,6 +2,9 @@
 chmod +x Iniciar
 chmod +x dmenu/Iniciar
 chmod +x fancy/Iniciar
+chmod +x hist
+chmod +x dmenu/hist
+chmod +x fancy/hist
 #BOLD="\e[1m"
 #RED="\e[31m"
 #BLUE="\e[34m"
